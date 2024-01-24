@@ -79,3 +79,5 @@ ScriptingForArtists/ScriptingForArtists-csharp.sln
 *.log
 
 Camera/.idea/.idea.Camera.dir/.idea/
+
+.idea/.idea.scripts.dir/.idea/

@@ -1,5 +1,3 @@
-#From the Repo of Anthony romrell
-
 using UnityEngine;
 using UnityEngine.AI;
 

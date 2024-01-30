@@ -1,6 +1,4 @@
-﻿#From the repo of Anthony Romrell
-
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.AI;
 
 public class SimplerAI : MonoBehaviour

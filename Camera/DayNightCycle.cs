@@ -5,7 +5,7 @@ public class DayNightCycle : MonoBehaviour
 {
     //duration of the day in seconds
     public float dayLength = 120f;
-    public UnityEvent morningEvent, nightEvent;
+    public UnityEvent morningEvent, afternoonEvent, nightEvent;
     
     private float rotationSpeed;
      //0 is midnight, 0.5 is noon
@@ -29,6 +29,12 @@ public class DayNightCycle : MonoBehaviour
         if (timeOfDay > 0.25f && timeOfDay < 0.26f)
         {
             morningEvent.Invoke();
+        }
+        
+        //if it is afternoon
+        if (timeOfDay > 0.5f && timeOfDay < 0.51f)
+        {
+            afternoonEvent.Invoke();
         }
         
         //if it is night
